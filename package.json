@@ -1,5 +1,5 @@
 {
-  "name": "giphyWebsite",
+  "name": "giphywebsite",
   "version": "1.0.0",
   "description": "Giphy JavaScript app using Giphy API. App fetches GIFs from Giphy API and displays on screen.",
   "main": "script.js",
