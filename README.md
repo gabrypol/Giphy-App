@@ -6,7 +6,8 @@
 # Responsive app:
 The App has been developed using CSS-grid features ('auto-fit' in particular) in order to fit various devices.
 
-# Giphy App is fully responsive (from a very large screen to an iPhone):
+# Responsiveness:
+Giphy App is fully responsive (from a very large screen to an iPhone).
 ## Very Large Screen:
 ![](images/image01.png)
 
