@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <link rel="shortcut icon" href="giphy.ico" />
+    <title>Giphy App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <h1 id="app-title">Giphy Finder</h1>
+    <!-- Input Search Form -->
+    <div id="header">
+        <form id="search-form">
+            <input 
+                type="text" 
+                id="search-text" 
+                placeholder="Search Giphy..."
+            >
+            <input 
+                type="submit" 
+                id="search-btn" 
+                value="Search"
+            >
+        </form>
+        <button id="trending-btn">Trending Giphys</button>
+    </div>
+
+    <main id="container">
+        <!-- Grid: Trending Giphy -->
+        <div id="trending-grid" class="grid"></div>
+
+        <!-- Grid: Searched Giphy -->
+        <div id="searched-grid" class="grid"></div>
+    </main> 
+    
+    <script src="script.js"></script>
+</body>
+</html>

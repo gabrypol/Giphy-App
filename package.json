@@ -1,0 +1,16 @@
+{
+  "name": "giphyWebsite",
+  "version": "1.0.0",
+  "description": "Giphy JavaScript app using Giphy API. App fetches GIFs from Giphy API and displays on screen.",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Gabriele Polenta",
+  "license": "ISC",
+  "homepage": "https://gabrypol.github.io/Giphy-App/",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
